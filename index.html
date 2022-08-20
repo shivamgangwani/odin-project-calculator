@@ -5,10 +5,53 @@
     <meta charset="UTF-8">
     <title>Calculator</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <h1>Calculator</h1>
+
+    <div id="calculator" class="column">
+
+        <div id="calc-display" class="column">
+            <div id="prelim-display">Prelim Display</div>
+            <div id="result-display">Display</div>
+        </div>
+
+        <div class="column">
+            <div class="row">
+                <div id="clear-button" class="calc-button button-misc">AC</div>
+                <div id="back-button" class="calc-button button-misc"><</div>
+                <div class="calc-button button-hidden"></div>
+                <div class="calc-button button-operator">÷</div>
+            </div>
+            <div class="row">
+                <div class="calc-button button-number">7</div>
+                <div class="calc-button button-number">8</div>
+                <div class="calc-button button-number">9</div>
+                <div class="calc-button button-operator">×</div>
+            </div>
+            <div class="row">
+                <div class="calc-button button-number">4</div>
+                <div class="calc-button button-number">5</div>
+                <div class="calc-button button-number">6</div>
+                <div class="calc-button button-operator">-</div>
+            </div>
+            <div class="row">
+                <div class="calc-button button-number">1</div>
+                <div class="calc-button button-number">2</div>
+                <div class="calc-button button-number">3</div>
+                <div class="calc-button button-operator">+</div>
+            </div>
+            <div class="row">
+                <div class="calc-button button-hidden"> </div>
+                <div class="calc-button button-number">0</div>
+                <div id="decimal-button" class="calc-button button-misc">.</div>
+                <div id="equals-button" class="calc-button button-misc">=</div>
+            </div>    
+        </div>
+    </div>
+
 </body>
 
 </html>
