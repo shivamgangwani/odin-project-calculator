@@ -109,7 +109,7 @@ document.querySelector("#clear-button").addEventListener("click", function() {
 });
 
 document.querySelector("#decimal-button").addEventListener("click", function() {
-    if(isFloat(+PageState.resultDisplay)) {
+    if(PageState.resultDisplay.includes(".")) {
         return 1;
     }
     PageState.resultDisplay += "."
